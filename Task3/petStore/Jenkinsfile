@@ -19,7 +19,7 @@ pippeline{
 
             steps{
                 script{
-                git url: "https://github.com/henriquelh1/Wooga.git"
+                git url: "https://github.com/henriquelh1/luis-marreiros.git"
                 sh: "npm install"
                 sh: "nmp update"
                 sh: "docker pull swaggerapi/petstore"
